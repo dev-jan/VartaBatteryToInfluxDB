@@ -1,0 +1,27 @@
+plugins {
+  id "org.springframework.boot" version "2.2.2.RELEASE"
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'org.influxdb:influxdb-java:2.21'
+
+  compile 'org.springframework:spring-webflux:5.3.5'
+  compile 'io.projectreactor.netty:reactor-netty:1.0.5'
+  compile 'javax.xml.bind:jaxb-api:2.3.0'
+  compile 'javax.activation:activation:1.1'
+  compile 'com.sun.xml.bind:jaxb-impl:2.3.0'
+  compile 'com.sun.xml.bind:jaxb-core:2.3.0'
+
+  compile 'commons-cli:commons-cli:1.4'
+
+  testCompile 'junit:junit:4.12'
+  testCompile 'com.squareup.okhttp3:mockwebserver:4.9.1'
+  testCompile 'com.google.truth:truth:1.1.2'
+}

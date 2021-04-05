@@ -1,0 +1,8 @@
+<root Timestamp='1616153873' id='125003033' ChargerCount='2' Description='VARTA'>
+<inverter id='M396367'>
+<var name='P' value='81'/>
+<var name='SOC' value='99'/>
+<var name='Capacity' value='8800'/>
+<var name='State' value='1'/>
+</inverter>
+</root>
